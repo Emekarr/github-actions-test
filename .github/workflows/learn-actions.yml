@@ -1,7 +1,7 @@
 name: learn-github-actions
 on: [push]
 jobs:
-  log-out-hello-world
+  log-out-hello-world:
     runs-on: windows-latest
     steps:
       - uses: actions/setup-node@v2
